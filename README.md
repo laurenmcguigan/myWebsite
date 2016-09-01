@@ -1,2 +1,2 @@
 # myWebsite
-My own repository
+Files for my personal website
