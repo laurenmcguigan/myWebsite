@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Theatre</title>
+        <link rel="stylesheet" type="text/css" href="index.css" />
+        <script type="text/javascript">
+            var GD1= new Image (400, 500)
+            GD1.src="show3.jpg"
+            
+            var GD2= new Image (400, 500)
+            GD2.src="show4.jpg"
+            
+            function switchImage()
+{
+document.GuysandDolls.src=GD1.src
+}
+
+function restoreImage()
+{
+document.GuysandDolls.src=GD2.src
+}
+        </script>
+
+        <script type="text/javascript">
+            
+            var HP1= new Image (300, 600)
+            HP1.src="show2.jpg"
+            
+            var HP2= new Image (300, 600)
+            HP2.src="avpm.jpeg"
+            
+
+            
+            function changeImage()
+            {
+            document.harryPotter.src=HP1.src
+            }
+            
+            function returnImage()
+            
+            {
+            document.harryPotter.src=HP2.src
+            }
+        </script>
+
+
+        <script type="text/javascript">
+            
+            var CI1= new Image (300, 200)
+            CI1.src="chemim.jpg"
+            
+            var CI2= new Image (300, 200)
+            CI2.src="show.jpg"
+            
+
+            
+            function newImage()
+            {
+            document.chemicalImbalance.src=CI1.src
+            }
+            
+            function backImage()
+            
+            {
+            document.chemicalImbalance.src=CI2.src
+            }
+        </script>
+
+        <script type="text/javascript">
+            
+            var MT1= new Image (300, 200)
+            MT1.src="mt.jpg"
+            
+            var MT2= new Image (300, 200)
+            MT2.src="show6.jpg"
+            
+
+            
+            function startImage()
+            {
+            document.middleTown.src=MT1.src
+            }
+            
+            function endImage()
+            
+            {
+            document.middleTown.src=MT2.src
+            }
+        </script>
+
+        <script type="text/javascript">
+            
+            var MM1= new Image (300, 200)
+            MM1.src="MOLM2.jpg"
+            
+            var MM2= new Image (300, 200)
+            MM2.src="show5.jpg"
+            
+
+            
+            function flipImage()
+            {
+            document.molm.src=MM1.src
+            }
+            
+            function firstImage()
+            
+            {
+            document.molm.src=MM2.src
+            }
+        </script>
+
+    </head>
+    <body>
+        <h1>Lauren McGuigan</h1>
+        <div id="links">
+            <a href="index.xhtml">Home</a> | <a
+                href="https://www.linkedin.com/in/lauren-mcguigan-9aaa57111?trk=hp-identity-photo"
+                >My LinkedIn Page</a> | <a href="Resume.xhtml"> My Resumé</a> | <a
+                    href="Theatre.html"> Theatre </a> | <a href="Volunteer.xhtml">Volunteer</a> | <a
+                        href="studyabroad.xhtml">Study Abroad</a></div>
+        <br />
+        <br />
+        <table border="5" cellspacing="5" cellpadding="5" style="width:100%">
+            <tr>
+                <th colspan="4"><h2>Performances</h2></th>
+            </tr>
+            <tr>
+                <td><strong>Show</strong></td>
+                <td><strong>Year</strong></td>
+                <td><strong>Character</strong></td>
+                <td><strong>Place</strong></td>
+            </tr>
+
+            <tr>
+                <td>Guys and Dolls</td>
+                <td>2013</td>
+                <td>Hot Box Dancer</td>
+                <td>Penn Trafford High School</td>
+            </tr>
+            <tr>
+                <td>A Very Potter Musical</td>
+                <td>2014</td>
+                <td> Padma Patel </td>
+                <td>Pitt Greensburg</td>
+            </tr>
+            <tr>
+                <td>Chemical Imbalance</td>
+                <td>2015</td>
+                <td>Lady Throckmortonshire</td>
+                <td>Pitt Greensburg</td>
+            </tr>
+            <tr>
+                <td>Middle Town</td>
+                <td>2015</td>
+                <td> Dating Woman/Female Radio Voice</td>
+                <td>Pitt Greensburg</td>
+            </tr>
+            <tr>
+                <td>Man of la Mancha</td>
+                <td> 2016 </td>
+                <td>Tenerio, a Muleteer</td>
+                <td>Pitt Greensburg</td>
+            </tr>
+            <tr>
+                <td>Student Film</td>
+                <td>2016</td>
+                <td>Diana</td>
+                <td>Pitt Greensburg</td>
+            </tr>
+        </table>
+        <br />
+        <br />
+        <br />
+        <h3> Mouse over images to see more</h3>
+        <h2>Guys and Dolls</h2>
+        <img src="show4.jpg" alt="guys and dolls picture" height="400" width="400" id="GuysandDolls" name="GuysandDolls"
+            onmouseover="switchImage()" onmouseout="restoreImage()" />
+        <h2>A Very Potter Musical</h2>
+        <img src="avpm.jpeg" alt="Musical Picture" height="300" width="600" id="harryPotter"
+            name="harryPotter" onmouseover="changeImage()" onmouseout="returnImage()" />
+        <h2>Chemical Imbalance</h2>
+        <img src="show.jpg" alt="play picture" height="300" width="200" id="chemicalImbalance" name="chemicalImbalance"
+            onmouseover="newImage()" onmouseout="backImage()" />
+        <h2>Middle Town</h2>
+        <img src="show6.jpg" alt="Middle Town Picture" height="300" width="200" id="middleTown"
+            name="middleTown" onmouseover="startImage()" onmouseout="endImage()" />
+        <h2>Man of la Mancha</h2>
+        <img src="show5.jpg" alt="MOLM Picture" height="300" width="400" id="molm" name="molm"
+            onmouseover="flipImage()" onmouseout="firstImage()" />
+    </body>
+</html>

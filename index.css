@@ -1,0 +1,9 @@
+body{background-color:gray}
+h1{color:#FFFFFF;background-color:black; outline-style:double; outline-color:white; text-align:center}
+section{text-align:center}
+h2{color:white; text-decoration:underline}
+img#home{border:5px solid white; width:90%; height:100%}
+div#links{font-size:20px; text-align:center}
+div#paragraph{font-size:18px}
+td{font-size:18px}
+h3{text-align:center}
